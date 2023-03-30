@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Muli', sans-serif;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+/* .container{
+    max-width: 600px;
+        margin: 0 auto;
+} */
+.faq1{
+    max-width: 600px;
+    background-color: transparent;
+        border: 1px solid #9fa4a8;
+        border-radius: 10px;
+        margin: 20px 0;
+        padding: 30px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s ease;
+display: flex;
+justify-content: space-between;
+
+}
+.uprprt{
+  margin: 0 2rem;
+}
+.uprprt h3{
+    margin: 0.5rem;
+    color: #ffffff;
+}
+/* .faq1 h3{
+    text-align: center;
+  
+} */
+.answer{
+    display: none;
+    margin: 0;
+}
+.active{
+    background-color: rgb(184, 115, 248);
+        border: 1px solid #9fa4a8;
+        border-radius: 10px;
+        margin: 20px 0;
+        padding: 30px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s ease;
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+         
+}
+
+.fa-circle-xmark{
+    display: none;
+}
+
+i{
+    cursor: pointer;
+    
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+.active .answer{
+    display: block;
+}
+.active .fa-circle-xmark{
+    display: block;
+}
